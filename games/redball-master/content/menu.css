@@ -1,0 +1,41 @@
+#back-button {
+	left: 10px;
+	top: 10px;
+	font-size: 20px;
+	border: solid 7px #dd3344;
+	border-radius: 5px;
+	transform: none;
+	-webkit-transform: none;
+}
+h1 {
+	position: fixed;
+	width: 100%;
+	top: 28%;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 900;
+}
+.red {
+	color: #dd3344;
+}
+#start-button {
+	left: 50%;
+	top: 50%;
+	font-size: 35px;
+	border: solid 25px #dd3344;
+}
+#leaderboard-button {
+	left: 50%;
+	top: 63%;
+	font-size: 35px;
+	border: solid 25px #dd3344;
+}
+
+/* Display the current high score */
+#highscore {
+	position: fixed;
+	width: 100%;
+	top: 75%;
+	text-align: center;
+	font-size: 30px;
+}

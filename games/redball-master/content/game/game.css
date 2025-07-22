@@ -1,0 +1,84 @@
+h1 {
+	position: fixed;
+	width: 100%;
+	top: 30%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+/* Styling for the target the player is supposed to hit. Target is round */
+#target {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	left: 50%;
+	bottom: 50%;
+	background-color: #dd3344;
+	cursor: pointer;
+}
+
+/* Inner circle grows in size over time, making the illusion that the target is disappearing */
+#inner-timer {
+	position: absolute;
+	border-radius: 50px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	background-color: #333333;
+}
+
+/* Displays current score inside the target */
+#score {
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	font-size: 35px;
+	color: #ffff88;
+}
+
+/* Retry info-text */
+#retry {
+	position: fixed;
+	top: 51%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	width: 140px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+/* Current high score-status */
+#highscore {
+	position: fixed;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	top: 60%;
+}
+
+/* Button styling */
+#upload-button {
+	left: 50%;
+	top: 70%;
+	font-size: 25px;
+	border: solid 15px #dd3344;
+	display: none;
+}
+
+/* Button styling */
+#back-button {
+	left: 50%;
+	top: 90%;
+	font-size: 25px;
+	border: solid 15px #dd3344;
+}

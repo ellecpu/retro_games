@@ -1,0 +1,35 @@
+#board {
+	position: fixed;
+	width: 1150px;
+	height: 70%;
+	border: solid 5px #444444;
+	border-radius: 5px;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	overflow: auto;
+}
+.grid-container {
+	position: absolute;
+	display: grid;
+	grid-template-columns: 50px 500px 150px 400px;
+	grid-row-gap: 20px;
+	font-size: 35px;
+	left: 50%;
+	top: 3%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+.grid-item {
+	border-bottom: solid 2px #444444;
+}
+.first-place {
+	color: #ffff88;
+}
+#back-button {
+	left: 50%;
+	top: 90%;
+	font-size: 25px;
+	border: solid 15px #dd3344;
+}

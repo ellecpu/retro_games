@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../shared-res/style/meyers-reset.css">
+		<link rel="stylesheet" href="../shared-res/style/default.css">
+		<link rel="stylesheet" href="game.css">
+		<script src="../shared-res/script/cookie.js"></script>
+		<title>Redball. Game</title>
+	</head>
+	<body>
+		<!-- Title that displays "GAME OVER" after playing -->
+		<h1>Click the dot!</h1>
+		
+		<!-- The target the player is supposed to hit within the timelimit -->
+		<div id="target" onmousedown="hitTarget()">
+		
+			<!-- Timer display -->
+			<div id="inner-timer"></div>
+			
+			<!-- Current score -->
+			<p id="score"></p>
+		</div>
+		
+		<!-- Retry info-text -->
+		<p id="retry"></p>
+		
+		<!-- Status about high score -->
+		<p id="highscore"></p>
+		
+		<!-- Upload new high score -->
+		<a class="button" id="upload-button" href="../leaderboard/upload/">Upload</a>
+		
+		<a class="button" id="back-button" href="../">Back to Menu</a>
+		<script src="game.js"></script>
+	</body>
+</html>
